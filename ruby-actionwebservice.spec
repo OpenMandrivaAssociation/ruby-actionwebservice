@@ -1,7 +1,7 @@
 %define rname actionwebservice
 %define name ruby-%{rname}
 %define version 1.1.6
-%define release %mkrel 1
+%define release %mkrel 2
 
 Summary:	Web service support for Action Pack
 Name:		%{name}
@@ -10,7 +10,7 @@ Release:	%{release}
 URL:		http://www.rubyonrails.com/
 Source0:	%{rname}-%{version}.gem
 License:	MIT
-Group:		Development/Other
+Group:		Development/Ruby
 BuildRoot:	%{_tmppath}/%{name}-buildroot
 BuildArch:	noarch
 Requires:	ruby ruby-actionpack ruby-activerecord
