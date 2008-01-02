@@ -11,6 +11,7 @@ URL:		http://www.rubyonrails.com/
 Source0:	%{rname}-%{version}.gem
 License:	MIT
 Group:		Development/Ruby
+BuildRoot:	%{_tmppath}/%{name}-buildroot
 BuildArch:	noarch
 Requires:	ruby ruby-actionpack ruby-activerecord
 
