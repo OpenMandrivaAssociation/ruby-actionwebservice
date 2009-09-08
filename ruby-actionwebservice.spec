@@ -1,7 +1,7 @@
 %define rname actionwebservice
 %define name ruby-%{rname}
 %define version 1.2.6
-%define release %mkrel 4
+%define release %mkrel 5
 
 Summary:	Web service support for Action Pack
 Name:		%{name}
