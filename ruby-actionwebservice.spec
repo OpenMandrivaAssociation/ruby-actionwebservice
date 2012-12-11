@@ -65,3 +65,53 @@ rm -rf %buildroot
 %doc CHANGELOG rdoc
 
 
+
+
+%changelog
+* Tue Sep 08 2009 Thierry Vignaud <tvignaud@mandriva.com> 1.2.6-5mdv2010.0
++ Revision: 433493
+- rebuild
+
+* Sat Aug 02 2008 Thierry Vignaud <tvignaud@mandriva.com> 1.2.6-4mdv2009.0
++ Revision: 260401
+- rebuild
+
+* Mon Jul 28 2008 Thierry Vignaud <tvignaud@mandriva.com> 1.2.6-3mdv2009.0
++ Revision: 251572
+- rebuild
+
+* Mon Jan 14 2008 Alexander Kurtakov <akurtakov@mandriva.org> 1.2.6-1mdv2008.1
++ Revision: 151296
+- new version
+
+  + Olivier Blin <oblin@mandriva.com>
+    - restore BuildRoot
+
+  + Thierry Vignaud <tvignaud@mandriva.com>
+    - kill re-definition of %%buildroot on Pixel's request
+
+* Mon Apr 23 2007 Olivier Blin <oblin@mandriva.com> 1.2.3-1mdv2008.0
++ Revision: 17586
+- 1.2.3
+
+* Sat Apr 21 2007 Pascal Terjan <pterjan@mandriva.org> 1.1.6-2mdv2008.0
++ Revision: 16672
+- ri is now in ri/ and not ri/ri/
+- Use Development/Ruby group
+
+
+* Thu Nov 16 2006 Olivier Blin <oblin@mandriva.com> 1.1.6-1mdv2007.0
++ Revision: 84944
+- 1.1.6
+- Import ruby-actionwebservice
+
+* Sat Jul 29 2006 Olivier Blin <blino@mandriva.com> 1.1.4-1mdv2007.0
+- 1.1.4
+- don't version requires
+
+* Mon Feb 13 2006 Pascal Terjan <pterjan@mandriva.org> 1.0.0-2mdk
+- Fix Summary/URL/Description/Dependencies
+
+* Mon Feb 13 2006 Pascal Terjan <pterjan@mandriva.org> 1.0.0-1mdk
+- First Mandriva release
+
