@@ -7,7 +7,7 @@ Summary:	Web service support for Action Pack
 Name:		%{name}
 Version:	%{version}
 Release:	%{release}
-URL:		http://www.rubyonrails.com/
+URL:		https://www.rubyonrails.com/
 Source0:	%{rname}-%{version}.gem
 License:	MIT
 Group:		Development/Ruby
